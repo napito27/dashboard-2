@@ -6,7 +6,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 import { Box, CssBaseline, Paper } from '@mui/material';
 
 function Layout( {children} ) {
-  const [header, menu, branding] = children;
+  const [header, menu, branding, kpi1, kpi2, kpi3, kpi4] = children;
 
   return (
     <Box style={{ height: "100vh", textAlign: "center", paddingRight:"16px"}}>
@@ -14,7 +14,7 @@ function Layout( {children} ) {
       <Grid container sx={{flexGrow: 1}} spacing={2}>
         
             {/** column 1 */}
-        <Grid item flexBasis={100}>
+        <Grid item flexBasis={70}>
           {menu} 
         </Grid>
 
@@ -29,16 +29,16 @@ function Layout( {children} ) {
           
           <Grid item container xs={12}  justifyContent={"center"}>
             <Grid xs={3}>
-              <Paper style={{ height: "130px", background: "lightgray" }}>PKI</Paper>
+              <Paper style={{ height: "130px", background: "lightgray" }}>{kpi1}</Paper>
             </Grid>
             <Grid xs={3}>
-              <Paper style={{ height: "130px", background: "lightgray" }}>PKI</Paper>
+              <Paper style={{ height: "130px", background: "lightgray" }}>{kpi2}</Paper>
             </Grid>
             <Grid xs={3}>
-              <Paper style={{ height: "130px", background: "lightgray" }}>PKI</Paper>
+              <Paper style={{ height: "130px", background: "lightgray" }}>{kpi3}</Paper>
             </Grid>
             <Grid xs={3}>
-              <Paper style={{ height: "130px", background: "lightgray" }}>PKI</Paper>
+              <Paper style={{ height: "130px", background: "lightgray" }}>{kpi4}</Paper>
             </Grid>
           </Grid>
           

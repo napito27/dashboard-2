@@ -2,3 +2,81 @@ body {
   font-family: 'Baloo 2';
   overflow: hidden;
 }
+
+/** header styles*/
+.header-container {
+  display: flex;
+  padding: 16px 0px 0px;
+  color: #4B4E52;
+  justify-content: space-between;
+}
+.header-search-cont {
+  padding: 0px 4px;
+  display: flex;
+  align-items: center;
+  width: 600px;
+  background-color: #F3F4f6;
+}
+.header-input {
+  margin-left: 8px;
+  flex: 1;
+}
+
+/**  menu styles */
+.menu-container {
+  align-items: center;
+  background-color: #3730A2;
+  display: flex;
+  flex-direction: column;
+  column-gap: 15px;
+  height: 100vh;
+  justify-content: center;
+}
+.menu-icon {
+  color: #EEF3FD;
+}
+
+/** sub-header container styles*/
+.sub-header-container {
+  background: linear-gradient(to right, #4239C8, #322E83);
+  border-radius: 4px;
+  color: #EEF3FD;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 0;
+  padding: 0px 32px;
+  justify-content: center;
+}
+
+/**  KPI styles */
+.kpi-container {
+  height: 100%;
+}
+.kpi-inner-cont {
+  height: inherit;
+  padding: 10px;
+}
+.kpi-title :first-child {
+  text-align: left;
+}
+.kpi-status-display {
+  border-radius: 100vmax;
+  background-color: #d94949;
+  color: white;
+  font-weight: 500;
+  width:max-content;
+  padding: 0px 8px;
+}
+.kpi-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #322E83; */
+  width: 100%;
+}
+.kpi-timer {
+  color: #d94949;
+  
+}

@@ -1,58 +1,50 @@
 import React from 'react';
 
-import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
-import ImageOutlinedIcon from '@mui/icons-material/ImageOutlined';
-import VideocamOutlinedIcon from '@mui/icons-material/VideocamOutlined';
-import PieChartOutlineOutlinedIcon from '@mui/icons-material/PieChartOutlineOutlined';
-import AssignmentOutlinedIcon from '@mui/icons-material/AssignmentOutlined';
+import { 
+  HomeOutlined,
+  ImageOutlined,
+  VideocamOutlined,
+  PieChartOutlineOutlined,
+  AssignmentOutlined
+} from '@mui/icons-material';
 
-import { Box, List, ListItem, ListItemButton } from '@mui/material';
-
-const MENU_ICON_STYLES = { 
-  alignItems: "center", 
-  background: "#3730A2", 
-  display: "flex", 
-  flexDirection: "column", 
-  gap: "10px", 
-  height: "100vh", 
-  justifyContent: "center" 
-}
+import { Box, IconButton, ListItem, MenuList } from '@mui/material';
 
 function Menu() {
   return (
-    <Box style={MENU_ICON_STYLES}>
-      <List style={{color: "#EEF3FD"}} >
+    <Box className='menu-container'>
+      <MenuList  >
         <ListItem>
-          <ListItemButton >
-            <HomeOutlinedIcon />
-          </ListItemButton>
+          <IconButton >
+            <HomeOutlined className='menu-icon'/>
+          </IconButton>
         </ListItem>
           
         <ListItem >
-          <ListItemButton>
-            <ImageOutlinedIcon />
-          </ListItemButton>
+          <IconButton>
+            <ImageOutlined className='menu-icon' />
+          </IconButton>
         </ListItem>
 
         <ListItem >
-          <ListItemButton>
-            <VideocamOutlinedIcon />
-          </ListItemButton>
+          <IconButton>
+            <VideocamOutlined className='menu-icon'/>
+          </IconButton>
         </ListItem>
 
         <ListItem >
-          <ListItemButton>
-            <PieChartOutlineOutlinedIcon />
-          </ListItemButton>
+          <IconButton>
+            <PieChartOutlineOutlined className='menu-icon'/>
+          </IconButton>
         </ListItem>
 
         <ListItem >
-          <ListItemButton>
-            <AssignmentOutlinedIcon />
-          </ListItemButton>
+          <IconButton>
+            <AssignmentOutlined className='menu-icon'/>
+          </IconButton>
         </ListItem>
 
-      </List>
+      </MenuList>
     </Box>
   );
 }
