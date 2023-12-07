@@ -1,0 +1,105 @@
+{
+  "kpi": [
+    {
+      "transmission":"live",
+      "title":"ufc quarter final",
+      "teamOne": "barcelona",
+      "teamTwo": "real-madrid",
+      "playTime": "3:18"
+    },
+  
+    {
+      "transmission":"live",
+      "title":"ufc quarter final",
+      "teamOne": "barcelona",
+      "teamTwo": "real-madrid",
+      "playTime": "3:18"
+    },
+  
+    {
+      "transmission":"live",
+      "title":"ufc quarter final",
+      "teamOne": "barcelona",
+      "teamTwo": "real-madrid",
+      "playTime": "3:18"
+    },
+  
+    {
+      "transmission":"live",
+      "title":"ufc quarter final",
+      "teamOne": "barcelona",
+      "teamTwo": "real-madrid",
+      "playTime": "3:18"
+    }
+  ],
+
+  "topScorer": [
+    {
+      "name":"erling hazard",
+      "team":"man. city",
+      "scoredGoals": 12
+    },
+  
+    {
+      "name":"mohamed salah",
+      "team":"liverpool",
+      "scoredGoals": 11
+    },
+  
+    {
+      "name":"kylian mbappe",
+      "team":"psg",
+      "scoredGoals": 8
+    }
+  ],
+
+  "result": [
+    {
+      "logo": "view all",
+      "team1": {
+        "name":"porto",
+        "score": 1
+      },
+      "team2": {
+        "name":"chelsea",
+        "score": 3
+      }
+    },
+  
+    {
+      "logo": "view all",
+      "team1": {
+        "name":"man united",
+        "score": 3
+      },
+      "team2": {
+        "name":"newcastle",
+        "score": 3
+      }
+    },
+  
+    {
+      "logo": "view all",
+      "team1": {
+        "name":"sevilla",
+        "score": 1
+      },
+      "team2": {
+        "name":"tottenham",
+        "score": 0
+      }
+    }  
+  ],
+
+  "resultNews": [
+    {
+      "title": "news",
+      "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+  
+    {
+      "title": "news",
+      "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "transmission":"live",
+    "title":"ufc quarter final",
+    "teamOne": "barcelona",
+    "teamTwo": "real-madrid",
+    "playTime": "3:18"
+  },
+
+  {
+    "logo":"live",
+    "title":"ufc quarter final",
+    "barcelona":3,
+    "real-madrid":18
+  },
+
+  {
+    "logo":"live",
+    "title":"ufc quarter final",
+    "barcelona":3,
+    "real-madrid":18
+  },
+
+  {
+    "logo":"live",
+    "title":"ufc quarter final",
+    "barcelona":3,
+    "real-madrid":18
+  }
+
+  
+]

@@ -1,0 +1,192 @@
+body {
+  font-family: 'Baloo 2';
+  overflow: hidden;
+}
+
+/** GLOBAL STYLES**/
+.team-logo {
+  height: 40px;
+  width: 40px;
+}
+
+/** header styles*/
+.header-container {
+  display: flex;
+  padding: 16px 0px 0px;
+  color: #4B4E52;
+  justify-content: space-between;
+}
+.header-search-cont {
+  padding: 0px 4px;
+  display: flex;
+  align-items: center;
+  width: 600px;
+  background-color: #F3F4f6;
+}
+.header-input {
+  margin-left: 8px;
+  flex: 1;
+}
+
+/**  menu styles */
+.menu-container {
+  align-items: center;
+  background-color: #3730A2;
+  display: flex;
+  flex-direction: column;
+  column-gap: 15px;
+  height: 100vh;
+  justify-content: center;
+}
+.menu-icon {
+  color: #EEF3FD;
+}
+
+/** sub-header container styles*/
+.sub-header-container {
+  background: linear-gradient(to right, #4239C8, #322E83);
+  border-radius: 4px;
+  color: #EEF3FD;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 0;
+  padding: 0px 32px;
+  justify-content: center;
+}
+
+/**  KPI styles */
+.kpi-container {
+  min-height: 110px;
+}
+.kpi-inner-cont {
+  height: inherit;
+  padding: 10px;
+}
+.kpi-title :first-child {
+  text-align: left;
+  text-transform: capitalize;
+}
+.kpi-status-display {
+  border-radius: 100vmax;
+  background-color: #d94949;
+  color: white;
+  font-weight: 500;
+  width:max-content;
+  padding: 0px 8px;
+}
+.kpi-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #322E83; */
+  width: 100%;
+  height: 100%;
+  margin-top: 16px;
+}
+.kpi-timer {
+  color: #d94949;
+}
+
+/**  top scorer styles **/
+.scorer-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 12px ;
+  gap: 20px;
+  min-height: 350px;
+}
+.scorer-header {
+  display: flex;
+  justify-content: space-between;
+  line-height: 4px;
+  padding: 8px 12px 0px;
+  background-color: #F2F2F2;
+}
+.scorer-header h6, h3 {
+  margin: 0px;
+  padding: 16px 0px;
+}
+.inner-container {
+  display: flex;
+  align-items: center;
+  line-height: 4px;
+  padding: 4px 12px;
+}
+.player-info * {
+  line-height: 24px;
+  margin: 0px;
+  text-align: left;
+}
+.player-info h4 {
+  text-transform: capitalize;
+}
+.player-info h6 {
+  text-transform: uppercase;
+}
+.player-info-container {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+.goals-scored {
+  background: #F2F2F2; 
+  height:30px;
+  width:30px; 
+  border-radius:50%;
+  margin:10px 0px;
+  padding:0px 0px; 
+  line-height:32px;
+}
+
+/** result styles **/
+.score-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 12px 16px;
+  /* min-height: 82px; */
+}
+.result-team1 {
+  flex: 1;
+  gap: 8px;
+  align-items: center;
+}
+.score-display {
+  background-color: #1e4bd7;
+  color: #FBFDFF;
+  padding: 4px 4px;
+  border-radius: 4px;
+  margin: 0px;
+  align-self: center;
+}
+.result-team2 {
+  flex: 1;
+  justify-content: flex-end;
+  gap: 8px;
+  align-items: center;
+}
+.team-name {
+  color: #FBFDFF;
+  text-transform: capitalize;
+}
+
+/** resultNews styles **/
+.news {
+  background: linear-gradient(to right, #4239C8, #322E83);
+  /* background-color: #322E83; */
+  color: #EEF3FD;
+  border-radius: 12px;
+  text-align: left;
+  padding: 12px 16px 10px 10px;
+}
+.news h3 {
+  line-height: 0px;
+  margin: 0px;
+  padding: 16px 0px;
+}
+.news p {
+  margin: 0px;
+}
