@@ -3,54 +3,38 @@ import React from 'react';
 import "../styles/app.css";
 
 import Grid from '@mui/material/Unstable_Grid2';
-import { Box, CssBaseline, Paper } from '@mui/material';
+import { Box, CssBaseline } from '@mui/material';
 
 function Layout( {children} ) {
-  const [header, menu, branding, kpi1, kpi2, kpi3, kpi4] = children;
+  const [header, menu, branding, kpi1, kpi2, kpi3, kpi4, topScorer, result, resultNews] = children;
 
   return (
-    <Box style={{ height: "100vh", textAlign: "center", paddingRight:"16px"}}>
+    <Box style={{ textAlign: "center", paddingRight:"16px"}}>
       <CssBaseline />
-      <Grid container sx={{flexGrow: 1}} spacing={2}>
+      <Grid container sx={{flexGrow: 1}} columnSpacing={2}>
         
-            {/** column 1 */}
-        <Grid item flexBasis={70}>
-          {menu} 
-        </Grid>
-
-        {/** column 2 */}
-        <Grid item container flex={1}>
-          <Grid item xs={12}>
-            {header}
-          </Grid>
-          <Grid item xs={12}>
-            {branding}
+        <Grid  flexBasis={70}> {menu} </Grid>
+        <Grid  container flex={1} rowSpacing={0}>
+          
+          <Grid  xs={12}> {header} </Grid>
+          <Grid  xs={12}> {branding} </Grid>
+          
+          <Grid  container xs={12}>
+            <Grid xs={3}> {kpi1} </Grid>
+            <Grid xs={3}> {kpi2} </Grid>
+            <Grid xs={3}> {kpi3} </Grid>
+            <Grid xs={3}> {kpi4} </Grid>
           </Grid>
           
-          <Grid item container xs={12}  justifyContent={"center"}>
-            <Grid xs={3}>
-              <Paper style={{ height: "130px", background: "lightgray" }}>{kpi1}</Paper>
-            </Grid>
-            <Grid xs={3}>
-              <Paper style={{ height: "130px", background: "lightgray" }}>{kpi2}</Paper>
-            </Grid>
-            <Grid xs={3}>
-              <Paper style={{ height: "130px", background: "lightgray" }}>{kpi3}</Paper>
-            </Grid>
-            <Grid xs={3}>
-              <Paper style={{ height: "130px", background: "lightgray" }}>{kpi4}</Paper>
-            </Grid>
-          </Grid>
-          
-          <Grid item container xs={12}  justifyContent={"center"}>
+          <Grid  container xs={12}  justifyContent={"center"}>
             <Grid xs={4}>
-              <Paper style={{ height: "350px", background: "lightgray" }}>Container 1</Paper>
+              <Grid> {topScorer} </Grid>
             </Grid>
             <Grid xs={4}>
-              <Paper style={{ height: "350px", background: "lightgray" }}>Container 2</Paper>
+              {result}
             </Grid>
             <Grid xs={4}>
-              <Paper style={{ height: "350px", background: "lightgray" }}>Container 3</Paper>
+              {resultNews}
             </Grid>
           </Grid>
         </Grid>

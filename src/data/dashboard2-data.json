@@ -1,0 +1,105 @@
+{
+  "kpi": [
+    {
+      "transmission":"live",
+      "title":"ufc quarter final",
+      "teamOne": "barcelona",
+      "teamTwo": "real-madrid",
+      "playTime": "3:18"
+    },
+  
+    {
+      "transmission":"live",
+      "title":"ufc quarter final",
+      "teamOne": "barcelona",
+      "teamTwo": "real-madrid",
+      "playTime": "3:18"
+    },
+  
+    {
+      "transmission":"live",
+      "title":"ufc quarter final",
+      "teamOne": "barcelona",
+      "teamTwo": "real-madrid",
+      "playTime": "3:18"
+    },
+  
+    {
+      "transmission":"live",
+      "title":"ufc quarter final",
+      "teamOne": "barcelona",
+      "teamTwo": "real-madrid",
+      "playTime": "3:18"
+    }
+  ],
+
+  "topScorer": [
+    {
+      "name":"erling hazard",
+      "team":"psg",
+      "scoredGoals": 12
+    },
+  
+    {
+      "name":"erling hazard",
+      "team":"psg",
+      "scoredGoals": 12
+    },
+  
+    {
+      "name":"erling hazard",
+      "team":"psg",
+      "scoredGoals": 12
+    }
+  ],
+
+  "result": [
+    {
+      "logo": "view all",
+      "team1": {
+        "name":"porto",
+        "score": 1
+      },
+      "team2": {
+        "name":"chelsea",
+        "score": 3
+      }
+    },
+  
+    {
+      "logo": "view all",
+      "team1": {
+        "name":"porto",
+        "score": 1
+      },
+      "team2": {
+        "name":"chelsea",
+        "score": 3
+      }
+    },
+  
+    {
+      "logo": "view all",
+      "team1": {
+        "name":"porto",
+        "score": 1
+      },
+      "team2": {
+        "name":"chelsea",
+        "score": 3
+      }
+    }  
+  ],
+
+  "resultNews": [
+    {
+      "title": "news",
+      "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+  
+    {
+      "title": "news",
+      "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ]
+}

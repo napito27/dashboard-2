@@ -1,24 +1,28 @@
 import React from 'react';
 
-import { Grid, Paper, Avatar, Box } from '@mui/material';
+import { Grid, Paper, Box } from '@mui/material';
 
-import logo1 from '../utils/logo192.png';
+import barcelona from '../team-logos/barcelona.ico';
+import realMadrid from '../team-logos/real-madrid.ico';
 
-function KPI() {
+function KPI({data}) {
+  const { transmission, title, teamOne, teamTwo, playTime } = data ?? {};
+  const teams = [barcelona, realMadrid];
+  
   return (
     <Paper className='kpi-container' elevation={3}>
-      <Grid container className='kpi-inner-cont' xs={12}>
+      <Grid item container className='kpi-inner-cont' xs={12}>
         <Grid item className='kpi-title' xs={8}>
-          <div><strong>UFC Quarter Final</strong></div>
+          <div><strong>{title}</strong></div>
         </Grid>
-        <Grid item xs={4} sx={{display: 'flex', alignItems: 'flex-start', justifyContent: 'flex-end'}}>
-          <div className='kpi-status-display'>Live</div>
+        <Grid item xs={4} sx={{display:'flex', alignItems:'flex-start', justifyContent:'flex-end'}}>
+          <div className='kpi-status-display'>{transmission}</div>
         </Grid>
 
         <Box className='kpi-logos'>
-          <Avatar src={logo1}></Avatar>
-          <span className='kpi-timer'>3:18</span>
-          <Avatar src={logo1}></Avatar>
+          <img src={teams[0]} alt='logo' className='team-logo' />
+          <span className='kpi-timer'>{playTime}</span>
+          <img src={teams[1]} alt='logo' className='team-logo' />
         </Box>
       </Grid>
 
