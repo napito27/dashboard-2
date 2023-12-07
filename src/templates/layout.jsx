@@ -1,9 +1,6 @@
-import React from 'react';
-
-import "../styles/app.css";
+import { Box, CssBaseline } from '@mui/material';
 
 import Grid from '@mui/material/Unstable_Grid2';
-import { Box, CssBaseline } from '@mui/material';
 
 function Layout( {children} ) {
   const [header, menu, branding, kpi1, kpi2, kpi3, kpi4, topScorer, result, resultNews] = children;

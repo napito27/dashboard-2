@@ -144,10 +144,15 @@ body {
 /** result styles **/
 .score-container {
   display: flex;
-  justify-content: space-between;
+  width: 100%;
   align-items: center;
   padding: 12px 16px;
   /* min-height: 82px; */
+}
+.result-team1 {
+  flex: 1;
+  gap: 8px;
+  align-items: center;
 }
 .score-display {
   background-color: #1e4bd7;
@@ -155,6 +160,13 @@ body {
   padding: 4px 4px;
   border-radius: 4px;
   margin: 0px;
+  align-self: center;
+}
+.result-team2 {
+  flex: 1;
+  justify-content: flex-end;
+  gap: 8px;
+  align-items: center;
 }
 .team-name {
   color: #FBFDFF;

@@ -5,15 +5,19 @@ function Score({teamOne, teamTwo, data}) {
 
   return (
     <Paper className='score-container' sx={{bgcolor:'#192534', borderRadius:'16px'}}>
-      <Stack direction="row" spacing={2} alignItems="center">
+
+      <Stack direction="row" className='result-team1'>
         <img src={teamOne} alt='logo' className='team-logo' />
         <Typography variant="h6" className='team-name'>{team1?.name}</Typography>
       </Stack>
+
       <h5 className='score-display' >{team1?.score} - {team2?.score}</h5>
-      <Stack direction="row" spacing={2} alignItems="center">
+
+      <Stack direction="row" className='result-team2'>
         <Typography variant="h6" className='team-name'>{team2?.name}</Typography>
         <img src={teamTwo} alt='logo' className='team-logo' />
       </Stack>
+      
     </Paper>
   );
 }

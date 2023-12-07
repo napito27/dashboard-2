@@ -36,20 +36,20 @@
   "topScorer": [
     {
       "name":"erling hazard",
-      "team":"psg",
+      "team":"man. city",
       "scoredGoals": 12
     },
   
     {
-      "name":"erling hazard",
-      "team":"psg",
-      "scoredGoals": 12
+      "name":"mohamed salah",
+      "team":"liverpool",
+      "scoredGoals": 11
     },
   
     {
-      "name":"erling hazard",
+      "name":"kylian mbappe",
       "team":"psg",
-      "scoredGoals": 12
+      "scoredGoals": 8
     }
   ],
 
@@ -69,11 +69,11 @@
     {
       "logo": "view all",
       "team1": {
-        "name":"porto",
-        "score": 1
+        "name":"man united",
+        "score": 3
       },
       "team2": {
-        "name":"chelsea",
+        "name":"newcastle",
         "score": 3
       }
     },
@@ -81,12 +81,12 @@
     {
       "logo": "view all",
       "team1": {
-        "name":"porto",
+        "name":"sevilla",
         "score": 1
       },
       "team2": {
-        "name":"chelsea",
-        "score": 3
+        "name":"tottenham",
+        "score": 0
       }
     }  
   ],
